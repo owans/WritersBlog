@@ -1,0 +1,30 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.login input[type = 'email'],
+.login input[type = 'password']{
+    padding: 10px;
+    margin: 20px 0px;
+    width: 30%;
+}
+
+.login input[type ="submit"]{
+    padding: 10px;
+    margin: 20px 0px;
+    width: 35%;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.login input[type = "submit"]:disabled{
+    background: grey;
+    cursor: not-allowed;
+}
